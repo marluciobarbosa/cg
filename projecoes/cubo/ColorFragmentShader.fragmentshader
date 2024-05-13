@@ -1,6 +1,6 @@
 #version 330 core
 
-// Interpolated values from the vertex shaders
+// Valores interpolados dos sombreadores de vértice
 in vec3 fragmentColor;
 
 // Ouput data
@@ -8,8 +8,8 @@ out vec3 color;
 
 void main(){
 
-	// Output color = color specified in the vertex shader, 
-	// interpolated between all 3 surrounding vertices
+	// Cor de saída = cor especificada no sombreador de vértice,  
+	// interpolada entre todos os 3 vértices circundantes
 	color = fragmentColor;
 
 }
